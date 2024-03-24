@@ -24,7 +24,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import StandardScaler
 from scipy.spatial.distance import cdist
 
-# alpaca = api.REST('AKW8P9R6JZE3JIGBYX4X', 'UEDTXjYR8b0z2ogMSCVb4oWVHpMZyJTMMxtsJlmc', 'https://api.alpaca.markets')
+alpaca = api.REST('AKW8P9R6JZE3JIGBYX4X', 'UEDTXjYR8b0z2ogMSCVb4oWVHpMZyJTMMxtsJlmc', 'https://api.alpaca.markets')
 
 
 while True:
